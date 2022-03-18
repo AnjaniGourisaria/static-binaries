@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.15
 MAINTAINER Andrew Dunham <andrew@du.nham.ca>
 
 RUN apk --update add build-base bash automake git curl linux-headers
